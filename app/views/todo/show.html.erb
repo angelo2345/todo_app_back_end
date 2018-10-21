@@ -2,8 +2,8 @@
        <main>
        <h2><%= @todo.description %></h2>
        <span><%= @todo.pomodoro_estimate %> pomodoros</span>
-       <a  class="in1" href="#">Edit</a>
-       <a  class="in2" href="#">Delete</a>
+       <a  class="in1" href="/todo/edit/<%= @todo.id %>"> Edit</a>
+       <a  class="in2" href="/todo/destroy/<%= @todo.id %>">Delete</a>
        <a  class="in3" href="../index">Go back</a>
        </main>
        

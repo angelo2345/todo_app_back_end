@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get 'todo/edit/:id', to: 'todo#edit'
   get 'todo/update/:id', to: 'todo#update'
   get 'todo/destroy/:id', to: 'todo#destroy'
+  root to: 'todo#index'
 end

@@ -1,9 +1,7 @@
  <h1>Workshop Todo list</h1>
         
         <main>
-         <input type="text" placeholder="Add Todo Items">
-         <input type="number" Placeholder="Pomodoros Estimate">
-         <input class="sub1" type="submit"value="Add New">
+         <a href="/todo/new">Make new Todo</a>
         </main>
         
         <ol>
@@ -11,7 +9,7 @@
             <% @todos.each do |todo| %>
         <li>
         <input type="checkbox" name=""/>
-        <a href="show/<%= todo.id%>"><%=todo.description %></a>
+        <a href="/todo/show/<%= todo.id%>"><%=todo.description %></a>
         <span class="pomodoro-estimate small-pomodoro-estimate"><%= todo.pomodoro_estimate %> pomodoros</span>
         
         

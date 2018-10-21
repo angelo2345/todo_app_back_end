@@ -65,3 +65,58 @@ span {
 .sub1 {
     box-shadow:5px 5px 1px ;
 }
+
+body {
+    background-color:#87CEEB;
+}
+h1 {
+    color:blue;
+    text-align:center;
+}
+
+h3 {
+    color:#00008B;
+    text-align: center;
+}
+
+h2 {
+    color:#F4A460;
+    text-align:center;
+}
+
+main {
+    background-color:white;
+    margin-left:300px;
+    margin-right:300px;
+  height:150px;
+  border:10px solid black;
+
+}
+
+.in1 {
+    background-color: green;
+    border:5px solid green;
+    color:white;
+   position: relative;
+    left:150px;
+     box-shadow:5px 5px 1px black;
+}
+    
+
+.in2 {
+    background-color:blue;
+     border:5px solid blue;
+    color:white;
+   position: relative;
+    left:250px;
+     box-shadow:5px 5px 1px black;
+}
+
+.in3 {
+    background-color:red;
+        border:5px solid red;
+    color:white;
+    position: relative;
+    left:350px;
+     box-shadow:5px 5px 1px black;
+}
